@@ -1,0 +1,65 @@
+{
+  "analysis_date": "2025-09-14 22:34:56",
+  "data_summary": {
+    "total_employees": 10,
+    "total_messages": 2191,
+    "date_range": {
+      "start": "2010-01-01",
+      "end": "2011-12-31",
+      "duration_days": 729
+    },
+    "analysis_period_days": 729
+  },
+  "sentiment_analysis": {
+    "distribution": {
+      "Positive": 1189,
+      "Neutral": 921,
+      "Negative": 81
+    },
+    "overall_score": "1108",
+    "average_score": 0.506
+  },
+  "employee_performance": {
+    "top_performer": {
+      "employee": "lydia.delgado@enron.com",
+      "total_score": "150",
+      "message_count": "284"
+    },
+    "most_active": {
+      "employee": "lydia.delgado@enron.com",
+      "message_count": "284"
+    },
+    "score_statistics": {
+      "mean": 4.616666666666666,
+      "median": 4.0,
+      "std": 3.2809411174931897,
+      "min": 0.0,
+      "max": 16.0
+    }
+  },
+  "flight_risk_analysis": {
+    "total_employees": 10,
+    "flight_risk_count": 0,
+    "flight_risk_percentage": 0.0,
+    "high_risk_employees": 0,
+    "medium_risk_employees": 0,
+    "low_risk_employees": 10,
+    "flight_risk_employees": [],
+    "recommendations": {
+      "immediate_action": 0,
+      "monitoring_required": 0,
+      "total_at_risk": 0
+    }
+  },
+  "key_findings": [
+    "Overall sentiment is 54.3% positive, 3.7% negative",
+    "No employees currently at flight risk",
+    "Top performing employee: lydia.delgado",
+    "Average messages per employee: 219.1"
+  ],
+  "recommendations": [
+    "Implement regular sentiment monitoring system",
+    "Create feedback channels to address employee concerns",
+    "Recognize and reward top-performing employees"
+  ]
+}
